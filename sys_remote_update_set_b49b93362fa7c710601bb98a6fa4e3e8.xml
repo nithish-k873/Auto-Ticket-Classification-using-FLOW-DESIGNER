@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-09-29 17:54:50">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Project update Set </name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a6ba223a2f23c710601bb98a6fa4e33c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:41</sys_created_on>
+<sys_id>b49b93362fa7c710601bb98a6fa4e3e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:41</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_assignedto</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_assignedto" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Assigned to</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_assignedto</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:05</sys_created_on><sys_id>fd96f6fe2f63c710601bb98a6fa4e377</sys_id><sys_name>Assigned to</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_assignedto</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:05</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-720751789</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>019bdb762fa7c710601bb98a6fa4e34f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba3db40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Assigned to</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>dda67afed963c71077e9c670efd6392d</update_guid>
+<update_guid_history>dda67afed963c71077e9c670efd6392d:-720751789</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_incident_workflow_1"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_incident_workflow_1&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 14:51:13&lt;/sys_created_on&gt;&lt;sys_id&gt;99913e762f63c710601bb98a6fa4e3b4&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_incident_workflow_1_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 14:51:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1079641014</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>059bdb762fa7c710601bb98a6fa4e350</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0eda604c50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>71917e761763c71025c25ae73fc8860f</update_guid>
+<update_guid_history>71917e761763c71025c25ae73fc8860f:-1079641014</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_assignedgroup_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_assignedgroup" label="Assigned group" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_assignedgroup</element><help/><hint/><label>Assigned group</label><language>en</language><name>u_incident_workflow_1</name><plural>Assigned groups</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:09</sys_created_on><sys_id>3696f6fe2f63c710601bb98a6fa4e3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assigned group</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_assignedgroup_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1781059841</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>099bdb762fa7c710601bb98a6fa4e351</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba4d9d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Assigned group</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>16a6bafed363c7109791b7ba19ca7909</update_guid>
+<update_guid_history>16a6bafed363c7109791b7ba19ca7909:-1781059841</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_subcategory_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_subcategory" label="Subcategory" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_subcategory</element><help/><hint/><label>Subcategory</label><language>en</language><name>u_incident_workflow_1</name><plural>Subcategories</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:09</sys_created_on><sys_id>e696f6fe2f63c710601bb98a6fa4e3d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Subcategory</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_subcategory_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2072412402</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>119bdb762fa7c710601bb98a6fa4e354</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba44bd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Subcategory</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f5a67afeef63c7100032aedf15c306d8</update_guid>
+<update_guid_history>f5a67afeef63c7100032aedf15c306d8:2072412402</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_32007eb22f63c710601bb98a6fa4e391</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_incident_workflow_1</description><local_or_existing>Existing</local_or_existing><name>u_incident_workflow_1</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:30</sys_created_on><sys_id>32007eb22f63c710601bb98a6fa4e391</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_32007eb22f63c710601bb98a6fa4e391</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1890744305</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>159bdb762fa7c710601bb98a6fa4e355</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9fdcd30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>13007eb28363c710734ab8c8f4b12cef</update_guid>
+<update_guid_history>13007eb28363c710734ab8c8f4b12cef:-1890744305</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_description_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_description" label="Description" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_description</element><help/><hint/><label>Description</label><language>en</language><name>u_incident_workflow_1</name><plural>Descriptions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:07</sys_created_on><sys_id>8296f6fe2f63c710601bb98a6fa4e3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Description</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_description_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:07</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>680584573</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>1d9bdb762fa7c710601bb98a6fa4e352</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba499f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Description</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c2a67afe2563c7102944f8c7f4b7aade</update_guid>
+<update_guid_history>c2a67afe2563c7102944f8c7f4b7aade:680584573</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_0810beb22f63c710601bb98a6fa4e356</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:35</sys_created_on><sys_id>0810beb22f63c710601bb98a6fa4e356</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1.u_incident_workflow_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_incident_workflow_1">cc107eb22f63c710601bb98a6fa4e3f9</sys_security_acl><sys_update_name>sys_security_acl_role_0810beb22f63c710601bb98a6fa4e356</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:35</sys_updated_on><sys_user_role display_value="u_incident_workflow_user" name="u_incident_workflow_user">ca23556e2f2b0710601bb98a6fa4e385</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>634941100</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>299bdb762fa7c710601bb98a6fa4e356</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9fec100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1.u_incident_workflow_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>5810beb2b163c710d10ac191b781945a</update_guid>
+<update_guid_history>5810beb2b163c710d10ac191b781945a:634941100</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_84b17af22f63c710601bb98a6fa4e32a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="84b17af22f63c710601bb98a6fa4e32a" sys_domain="global" table="u_incident_workflow_1" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:34</sys_created_on><sys_id>34b6fafe2f63c710601bb98a6fa4e30b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_caller</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:34</sys_created_on><sys_id>fcb6fafe2f63c710601bb98a6fa4e30b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_category</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:34</sys_created_on><sys_id>b8b6fafe2f63c710601bb98a6fa4e30c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_subcategory</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:34</sys_created_on><sys_id>74b6fafe2f63c710601bb98a6fa4e30d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_shortdescription</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:34</sys_created_on><sys_id>30b6fafe2f63c710601bb98a6fa4e30e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_description</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:35</sys_created_on><sys_id>f4b6fafe2f63c710601bb98a6fa4e340</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:35</sys_created_on><sys_id>81b6fafe2f63c710601bb98a6fa4e341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_assignedgroup</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:35</sys_created_on><sys_id>4db6fafe2f63c710601bb98a6fa4e341</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_assignedto</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:35</sys_created_on><sys_id>09b6fafe2f63c710601bb98a6fa4e342</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_incident_workflow_1" sys_domain="global" view="Default view">84b17af22f63c710601bb98a6fa4e32a</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_incident_workflow_1</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:51:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>84b17af22f63c710601bb98a6fa4e32a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_84b17af22f63c710601bb98a6fa4e32a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:51:41</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>755822622</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:44</sys_created_on>
+<sys_id>2d9bdb762fa7c710601bb98a6fa4e357</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba7ab40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:44</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>15b6fafe5063c710663bace005d8c346</update_guid>
+<update_guid_history>15b6fafe5063c710663bace005d8c346:755822622,ecb17af24863c7102ca4a83fb00b0833:1502518964,54b17af2d163c710f0966b03f428fb30:-1139510861</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_caller</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_caller" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Caller</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_caller</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:07</sys_created_on><sys_id>da96f6fe2f63c710601bb98a6fa4e3ae</sys_id><sys_name>Caller</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_caller</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1984692923</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>459bdb762fa7c710601bb98a6fa4e34f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba2acb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Caller</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>50a63afe4463c7100c69c752e2a8ff9a</update_guid>
+<update_guid_history>50a63afe4463c7100c69c752e2a8ff9a:-1984692923</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_shortdescription</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_shortdescription" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Short Description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_shortdescription</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:08</sys_created_on><sys_id>9696f6fe2f63c710601bb98a6fa4e3cd</sys_id><sys_name>Short Description</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_shortdescription</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>2007491344</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>499bdb762fa7c710601bb98a6fa4e350</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba32020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Short Description</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>24a63afe2363c71093c125ff5d2501c9</update_guid>
+<update_guid_history>24a63afe2363c71093c125ff5d2501c9:2007491344</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_assignedto_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_assignedto" label="Assigned to" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_assignedto</element><help/><hint/><label>Assigned to</label><language>en</language><name>u_incident_workflow_1</name><plural>Assigned to</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:06</sys_created_on><sys_id>f196f6fe2f63c710601bb98a6fa4e37b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assigned to</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_assignedto_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1764790978</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>4d9bdb762fa7c710601bb98a6fa4e351</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba509c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Assigned to</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a2a6bafe5e63c710fb0b8b720e19c30c</update_guid>
+<update_guid_history>a2a6bafe5e63c710fb0b8b720e19c30c:1764790978</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_incident_workflow_1</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:51:14</sys_created_on><sys_id>e1917e762f63c710601bb98a6fa4e304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:51:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1921325279</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>519bdb762fa7c710601bb98a6fa4e353</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0eda6051b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d917e76fd63c71015a61cd13b37401e</update_guid>
+<update_guid_history>3d917e76fd63c71015a61cd13b37401e:1921325279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Incident Workflow" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Incident Workflow</label><language>en</language><name>u_incident_workflow_1</name><plural>Incident Workflows</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:42</sys_created_on><sys_id>8610feb22f63c710601bb98a6fa4e309</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Incident Workflow</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1998638915</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>559bdb762fa7c710601bb98a6fa4e354</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0eda01d6b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>9310feb20563c71020b6e347bb6536c3</update_guid>
+<update_guid_history>9310feb20563c71020b6e347bb6536c3:1998638915</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9810beb22f63c710601bb98a6fa4e35c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_incident_workflow_1</description><local_or_existing>Existing</local_or_existing><name>u_incident_workflow_1</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:36</sys_created_on><sys_id>9810beb22f63c710601bb98a6fa4e35c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9810beb22f63c710601bb98a6fa4e35c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:36</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-777856289</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>599bdb762fa7c710601bb98a6fa4e355</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9fef1f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>e810beb2f863c7103fbb9ab69322f56c</update_guid>
+<update_guid_history>e810beb2f863c7103fbb9ab69322f56c:-777856289</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_67007eb22f63c710601bb98a6fa4e3f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:32</sys_created_on><sys_id>67007eb22f63c710601bb98a6fa4e3f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1.u_incident_workflow_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_incident_workflow_1">32007eb22f63c710601bb98a6fa4e391</sys_security_acl><sys_update_name>sys_security_acl_role_67007eb22f63c710601bb98a6fa4e3f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:32</sys_updated_on><sys_user_role display_value="u_incident_workflow_user" name="u_incident_workflow_user">ca23556e2f2b0710601bb98a6fa4e385</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1378588697</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>6d9bdb762fa7c710601bb98a6fa4e356</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9fe4be0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1.u_incident_workflow_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>bb007eb28663c71016a6cfb37bf315f7</update_guid>
+<update_guid_history>bb007eb28663c71016a6cfb37bf315f7:-1378588697</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_17bdeef62f23c710601bb98a6fa4e32d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Incident Workflow</label><live_feed_enabled>false</live_feed_enabled><name>u_incident_workflow_1</name><number_ref display_value="INC">4991b6be2f23c710601bb98a6fa4e3fd</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:29</sys_created_on><sys_id>17bdeef62f23c710601bb98a6fa4e32d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Incident Workflow</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_17bdeef62f23c710601bb98a6fa4e32d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:51:12</sys_updated_on><update_access>false</update_access><user_role display_value="u_incident_workflow_user" name="u_incident_workflow_user">ca23556e2f2b0710601bb98a6fa4e385</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-720974619</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:41</sys_created_on>
+<sys_id>709bdb762fa7c710601bb98a6fa4e34e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0eda5fc4a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:41</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>99913e765763c7106e4212efd2eb85b1</update_guid>
+<update_guid_history>99913e765763c7106e4212efd2eb85b1:-720974619,ef10feb2ba63c710b875aaefefa95ac5:1186268669</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_incident_workflow_1_u_category</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_category" table="u_incident_workflow_1" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_category</element><name>u_incident_workflow_1</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:26</sys_created_on><sys_id>f2a6bafe2f63c710601bb98a6fa4e311</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_incident_workflow_1_u_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:26</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_category</element><hint/><inactive>false</inactive><label>Network</label><language>en</language><name>u_incident_workflow_1</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>faa6bafe2f63c710601bb98a6fa4e310</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:26</sys_updated_on><value>network</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_category</element><hint/><inactive>false</inactive><label>Hardware</label><language>en</language><name>u_incident_workflow_1</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7ea6bafe2f63c710601bb98a6fa4e312</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:26</sys_updated_on><value>hardware</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_category</element><hint/><inactive>false</inactive><label>Access</label><language>en</language><name>u_incident_workflow_1</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f2a6bafe2f63c710601bb98a6fa4e314</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:27</sys_updated_on><value>access</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_category</element><hint/><inactive>false</inactive><label>Performance</label><language>en</language><name>u_incident_workflow_1</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c3a6bafe2f63c710601bb98a6fa4e360</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:27</sys_updated_on><value>performance</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-874607299</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:41</sys_created_on>
+<sys_id>7c9b93362fa7c710601bb98a6fa4e3e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba598f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:41</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Category</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>c3a6bafe0363c710c7d9f282085be863</update_guid>
+<update_guid_history>c3a6bafe0363c710c7d9f282085be863:-874607299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_incident_workflow_1_u_state</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_state" table="u_incident_workflow_1" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_state</element><name>u_incident_workflow_1</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:30</sys_created_on><sys_id>fba6bafe2f63c710601bb98a6fa4e3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_state</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_incident_workflow_1_u_state</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:30</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>New</label><language>en</language><name>u_incident_workflow_1</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f3a6bafe2f63c710601bb98a6fa4e3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:30</sys_updated_on><value>new</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>In progress</label><language>en</language><name>u_incident_workflow_1</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ccb6bafe2f63c710601bb98a6fa4e3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:31</sys_updated_on><value>in progress</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>On hold</label><language>en</language><name>u_incident_workflow_1</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44b6bafe2f63c710601bb98a6fa4e3a7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:31</sys_updated_on><value>on hold</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Resolved</label><language>en</language><name>u_incident_workflow_1</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8b6bafe2f63c710601bb98a6fa4e3a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:31</sys_updated_on><value>resolved</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_state</element><hint/><inactive>false</inactive><label>Closed</label><language>en</language><name>u_incident_workflow_1</name><sequence>4</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40b6bafe2f63c710601bb98a6fa4e3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:31</sys_updated_on><value>closed</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1572434112</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:41</sys_created_on>
+<sys_id>7c9b93362fa7c710601bb98a6fa4e3e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba6c040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:41</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.State</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>9cb6fafe8563c710396510b9f9250203</update_guid>
+<update_guid_history>9cb6fafe8563c710396510b9f9250203:-1572434112</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_incident_workflow_1"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_incident_workflow_1&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 14:44:39&lt;/sys_created_on&gt;&lt;sys_id&gt;8d10beb22f63c710601bb98a6fa4e3e3&lt;/sys_id&gt;&lt;sys_name&gt;u_incident_workflow_1&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_incident_workflow_1_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 14:44:39&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>283357223</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:41</sys_created_on>
+<sys_id>859bdb762fa7c710601bb98a6fa4e34e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0eda01a8c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:41</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>4310feb23163c7101ee9a359994e18c0</update_guid>
+<update_guid_history>4310feb23163c7101ee9a359994e18c0:283357223</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_category</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_category" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Category</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_category</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:04</sys_created_on><sys_id>e996f6fe2f63c710601bb98a6fa4e31a</sys_id><sys_name>Category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1806358125</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>899bdb762fa7c710601bb98a6fa4e34f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba2d2f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Category</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d4a63afe8b63c710b7e5414767c2849d</update_guid>
+<update_guid_history>d4a63afe8b63c710b7e5414767c2849d:-1806358125</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_state</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_state" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>State</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_state</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:06</sys_created_on><sys_id>0e96f6fe2f63c710601bb98a6fa4e37d</sys_id><sys_name>State</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_state</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:06</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1414509389</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>8d9bdb762fa7c710601bb98a6fa4e350</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba37830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.State</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0da63afe9b63c7109fc1dab02ac0cfcf</update_guid>
+<update_guid_history>0da63afe9b63c7109fc1dab02ac0cfcf:-1414509389</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_caller_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_caller" label="Caller" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_caller</element><help/><hint/><label>Caller</label><language>en</language><name>u_incident_workflow_1</name><plural>Callers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:08</sys_created_on><sys_id>de96f6fe2f63c710601bb98a6fa4e3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Caller</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_caller_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:08</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-901811109</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>919bdb762fa7c710601bb98a6fa4e352</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba40490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Caller</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>21a67afeda63c7100758b543c797ec31</update_guid>
+<update_guid_history>21a67afeda63c7100758b543c797ec31:-901811109</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_shortdescription_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_shortdescription" label="Short Description" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_shortdescription</element><help/><hint/><label>Short Description</label><language>en</language><name>u_incident_workflow_1</name><plural>Short Descriptions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:08</sys_created_on><sys_id>aa96f6fe2f63c710601bb98a6fa4e3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Short Description</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_shortdescription_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:08</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2126709809</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>959bdb762fa7c710601bb98a6fa4e353</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba472c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Short Description</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>46a67afe0463c7104be72ad6b521fadb</update_guid>
+<update_guid_history>46a67afe0463c7104be72ad6b521fadb:2126709809</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_ff7bc3362f27c710601bb98a6fa4e365</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3481000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;auto_classify_school_it_tickets&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Workflow Record","reference":"u_incident_workflow_1","reference_display":"Incident Workflow","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"13545fe4-c24e-47c4-b515-d76f161eee40":["record"]},"attributes":{"":""}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Incident Workflow Table","reference":"u_incident_workflow_1","reference_display":"Incident Workflow","type":"table_name","base_type":"table_name","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.u_category","label":"Trigger - Record Created➛Incident Workflow Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"u_incident_workflow_1","column_name":"u_category","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"Network","reference":false,"image":"","rawLabel":"Network","selected":false,"missing":false,"value":"network","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}},{"used":false,"label":"Hardware","reference":false,"image":"","rawLabel":"Hardware","selected":false,"missing":false,"value":"hardware","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}},{"used":false,"label":"Access","reference":false,"image":"","rawLabel":"Access","selected":false,"missing":false,"value":"access","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}},{"used":false,"label":"Performance","reference":false,"image":"","rawLabel":"Performance","selected":false,"missing":false,"value":"performance","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}}],"usedInstances":{}},{"name":"Created_1.current.u_shortdescription","label":"Trigger - Record Created➛Incident Workflow Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"u_incident_workflow_1","column_name":"u_shortdescription","choices":[{"order":0.0}],"usedInstances":{"df609040-461d-4900-a4d7-431bfa8429b6":["condition"]}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Auto Classify School IT Tickets&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;24e817322fa7c710601bb98a6fa4e33f&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 16:44:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto Classify School IT Tickets&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_ff7bc3362f27c710601bb98a6fa4e365&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:56&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record&gt;2fa6933e2f67c710601bb98a6fa4e3a4&lt;/version_record&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="u_incident_workflow_1"&gt;u_categoryISEMPTY&lt;item display_value="-- None --" endquery="false" field="u_category" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;false&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;24e817322fa7c710601bb98a6fa4e33f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:55&lt;/sys_updated_on&gt;&lt;table&gt;u_incident_workflow_1&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/identifier&gt;&lt;identifier_type&gt;flow&lt;/identifier_type&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:56&lt;/sys_created_on&gt;&lt;sys_id&gt;6ce817322fa7c710601bb98a6fa4e340&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:56&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;24e817322fa7c710601bb98a6fa4e33f&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN6ce817322fa7c710601bb98a6fa4e340"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN048bc3362f27c710601bb98a6fa4e36a"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/id&gt;&lt;name&gt;Auto Classify School IT Tickets&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 16:44:27&lt;/sys_created_on&gt;&lt;sys_id&gt;048bc3362f27c710601bb98a6fa4e36a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 16:44:27&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=048bc3362f27c710601bb98a6fa4e36a"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN8cae037e2f27c710601bb98a6fa4e3aa,b5ae437e2f27c710601bb98a6fa4e35f"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Auto Classify School IT Tickets"&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/model&gt;&lt;model_id&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ff7bc3362f27c710601bb98a6fa4e365&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 16:58:06&lt;/sys_created_on&gt;&lt;sys_id&gt;8cae037e2f27c710601bb98a6fa4e3aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8cae037e2f27c710601bb98a6fa4e3aa"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Auto Classify School IT Tickets"&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/model&gt;&lt;model_id&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ff7bc3362f27c710601bb98a6fa4e365&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 16:58:14&lt;/sys_created_on&gt;&lt;sys_id&gt;b5ae437e2f27c710601bb98a6fa4e35f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5ae437e2f27c710601bb98a6fa4e35f"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN62409bfe2f27c710601bb98a6fa4e3df"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Classify School IT Tickets"&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:05:23&lt;/sys_created_on&gt;&lt;sys_id&gt;62409bfe2f27c710601bb98a6fa4e3df&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:24&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLetk0UNZJPC9nZRBIFASaRNLE26EqWsu8i/d6iLLeviSyynzlMgkpk5MzxzZuinnzpDLmb6jT5FLsN6R6dc4oAjNl0tMSxLtexwtFB7C8R9JEWw0m9kEOGOTgKxmOLFkiEJhwliISyKwMeBfmN29BixCE9W4cgHS/D/iZnMpp5tw3fkUO5RH3PpvIjgO2HixTFh36chWF79lR0bZYe0b9khOOLNKfMDzPWbp+eOvkQBeJDK+8/SloRwnK1YtYc0KKrAecRDAwsbnm3almUY1nXXdK9s17R8G2HDgHPlRJWCkTX52mQC/5CY+9hfJ6mSygAj/5Gz1frEHG4iTdsC/Qjpv2D92lDnCIaoPJzurT+dLFvpsjcX1MOPS0kFT1dSnOmmYNGCP6T4VZ4xQRGTeZ5hJQrBHl4qyApEhohM5uJlnDv8THkSXbbJhIfY+gtJGVA3kjhUV0Eog0tx0tyEIgoS9OO74eP41vn2aTr8427sjO8m0/FoOL271V+TuJx/ImUxRZhhcdJwXtfk+Ewx8xMO8WjhAp6OHnoBXcpPnqRxTsrXzoboQ8F9muSlQnYv3wq3yZ7Hv4vthtHId6/gccN5D6zMwPxocvflz+nfVb6/md7DYhgJva+uEPIxaqC3Swr0LqanBr+syVQxBbuInq0cwvSuYfxPXM+E7a1Uf0Fcho4UDvJ9p5AlUAYwrEIUPma3G3+wTmczqA7Kl5EM93I/ja1aAPuJH0QcTDjrG6rSP0nkOqP3NAR8T1C+ebayEMh9ZnEccU1wzYuCQOky3LSWW9cSnIodZLRAsyzXZIIZ9mSBHuRrWPz6QsOQ8lkB/dp5slL1zlZFCLkan+L0uc3aryY9LsXTWtXnt5dUvGkS4mJiGX1V76Zhu8Q0+kYPEd82DM8qVHwVYiN2WSLKWSr/uLoPE4qyAzhRTnwG3ijWyEGMjrfLIU+CIk4mL8N2oJktQbMUtJJM2kfp5Jqs6fLtNmd3hdbyKIH8GMF/+HmMh4wKB+hiMnPSupFgnyYSEeBZICLul7VJ2dQo/N060ZIausj7vtvt5oT2S3Ztv16aMm7SnhMX8dXZNNEmpjvAXWyAFNqggm5vMHA9ZBHSv+pjyyxp4gZcLeIPoYV7yBDXsalJF2v5HNeVwRGKeALAijoeDfB0XczoWquK6d7H0L+XOeYOQA0cphSuIoMzBk/vfK9dDai4jjdV35YO3GdBKe/keuD1zH7f68M7CFSAdLGLzK7VQ4P+lX3dK6lABd4u6LImW+/yOgpXYQKkQSG+pluX9avAOakcYilV4zq+nyfnUeqg0FnVlWiJyIhAU+nURpuD2gRDn0zex631dyHnlc4Orn+H9S3Xag58EPy3Gjhtvr44PAQOSU0DlEsbPEokibezfqYnGe5e9wbErhceMqgTng3EZvAXP4gcSJC4kWp1E8mhBRnX1nXjCPGGEiuRpzhb7Bh+2kqK2XpSrPMlxT554MortPEd+hawH6ixJdPG27ub4NgRpFa9KdGynyKxr7krTc4xJJPBTA2uNOW3zX6SDseV9gbLWjbHtNe5VJrLYd8KDTa04F0CP0/7KlHhPV7Q2O+jXs9umJ0H5Rd0Hcw9UVx8MzuaOHEdD3d2tOPslm3W9rRCXW3z5MBu1WrU9S3rtKhrm9a+qE9vR7ve/zUoLrTRPP8HV0GzvQggAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN1d3697322f67c710601bb98a6fa4e363"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Classify School IT Tickets"&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:31:14&lt;/sys_created_on&gt;&lt;sys_id&gt;1d3697322f67c710601bb98a6fa4e363&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:26&lt;/sys_updated_on&gt;&lt;ui_id&gt;13545fe4-c24e-47c4-b515-d76f161eee40&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1TUU/bMBD+K1WeQ5Q0pYK+Tasq8TCQ2MQeGLMc+9Jac5zMsVu6qv99Z8cpBQaqKiY0aX7z+e6777v7fLuJBI8m0Qh4mp1nY5ZneT5M0+HZKCvGeZENeU4BsiiOFK0AMzWwWnO8L6m0LrDZfNRADXCSJcxqDcpst/jORdtIur4JaRhhCyE5vkeT27s4aqhGRAM6mmyePJl1A0TSAiQWTmtmKwQdXEwR41C2ffV1T/cpfdcD7zygE+GC+OT4ZGkcwb0BxQHblVS2EEcVVZyaWq+jidEWA6iaXym53mUshDKd0oret+IX4o9Sl1cCSmNhCrsrCRPqh1MLBleNEbXqIoYWsp9cLW2lLjsJbrZQUivN3mxti3jQOMqORMew/LyoV9d9v5lQXl1gK2tG5e5GjdGisAZatw6Q4IdS0aYRak4aXS+FL0YqVTKXeElKWa+wZyvmKqHM8U5wQDSZYXzqwzdUCyfiE8Jg8daLJz+t69vJCISJ1+wFE78oTG2ZFo35gMBLCDS3cbBrOnzVAPCwb+/Sds+uljA06xz3+M2mac4VmFWtf3y3pLXF46eVOCnFcycfgXCc879AhX0NDLrO8cHae4CZAMnbPwwjmN+EBmQZGuz8/2YfIBun/vz/Bn/hGxSnr1mBnT9sfg9z/ysIxYRv7AzshWTP/X4RkgZfQ9LxhnYsBpcdi0MVPCp+QVHv5/1Y8PLpm1n57J1MHBj9Yy5+ybt3vwGbycrBcwgAAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=1d3697322f67c710601bb98a6fa4e363"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN56c113f22f67c710601bb98a6fa4e390"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;5ec113f22f67c710601bb98a6fa4e38f&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Classify School IT Tickets"&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:11:54&lt;/sys_created_on&gt;&lt;sys_id&gt;56c113f22f67c710601bb98a6fa4e390&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:26&lt;/sys_updated_on&gt;&lt;ui_id&gt;df609040-461d-4900-a4d7-431bfa8429b6&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1VXW/aMBT9K5GfWZRAQStvVbtK1Tqqjap7mLrIsW/gao6d2Q6UIf77rvNB0aDah6Y97Q0f349zzz0OW2ZqX9Xe3ZsL53Ch2fTT44ChDhj93jLNS2BTJoyW6NFoNmArruqAbbeXFrgHmaWxqK0F7eM6c0tjvQQnLFYhYbe7vXn7Zo2vCvw8e/87OTPwa2O/UEeJrlJ88/DPG4slKkmxrSwVt6SGB8um2x+u/KaCTPEcFPGbe4t6Qeko6XTOx8U4TcZiNJyMhkkyfH2W5pNRng7liMPZhOL6xMsDlU8IH5oQ5PryxsrAZZgMGDx50BKoX8GVgwEruZbcG7thU29rAmh6eafVZh+xRO2pGguxTw6/QaiUJCGyABpMQHu7P2bdGlpYLA0KuGtkaxHPc9XlCKPqUs/aEcICoeC18v0CCakd1YMqkA40Ok7FfGnWH/qG16ibAbtLZQRX+xP3JENee3BhG6CgpEJZyauKxMkqa1bYJBOXMl4oOsSFMmtqGnwecxGIx6QRj68Jv2rgB24xTPGOylAybdBlrTm62ZrmbNeokn2tA592vm6SrBWDAtq0C2qzgo70bnD8nrIGeH5U0fwqQhd9xAIjY6POitHxI3g58G+Ytkh4kZ6L9LRp+eiUaaPbBjm2bj/jC/5Nf+LfDvklA4/H//176N9AM+cORdZ806lc+Br8sYEfg1HbFq71kASBjpjcB+ym/98IFxvaOopDKBg0zPCM7b4D91KCAIEGAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ff7bc3362f27c710601bb98a6fa4e365&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 16:58:14&lt;/sys_created_on&gt;&lt;sys_id&gt;86ae437e2f27c710601bb98a6fa4e3c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 16:58:14&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ff7bc3362f27c710601bb98a6fa4e365&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 16:58:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b1ae437e2f27c710601bb98a6fa4e35b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 16:58:13&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;auto_classify_school_it_tickets&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Workflow Record","reference":"u_incident_workflow_1","reference_display":"Incident Workflow","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"13545fe4-c24e-47c4-b515-d76f161eee40":["record"]},"attributes":{"":""}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Incident Workflow Table","reference":"u_incident_workflow_1","reference_display":"Incident Workflow","type":"table_name","base_type":"table_name","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.u_category","label":"Trigger - Record Created➛Incident Workflow Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"u_incident_workflow_1","column_name":"u_category","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"Network","reference":false,"image":"","rawLabel":"Network","selected":false,"missing":false,"value":"network","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}},{"used":false,"label":"Hardware","reference":false,"image":"","rawLabel":"Hardware","selected":false,"missing":false,"value":"hardware","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}},{"used":false,"label":"Access","reference":false,"image":"","rawLabel":"Access","selected":false,"missing":false,"value":"access","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}},{"used":false,"label":"Performance","reference":false,"image":"","rawLabel":"Performance","selected":false,"missing":false,"value":"performance","parameters":{"name":"u_incident_workflow_1","dependent_values":[""]}}],"usedInstances":{}},{"name":"Created_1.current.u_shortdescription","label":"Trigger - Record Created➛Incident Workflow Record➛Short Description","reference":"","reference_display":"Short Description","type":"string","base_type":"string","parent_table_name":"u_incident_workflow_1","column_name":"u_shortdescription","choices":[{"order":0.0}],"usedInstances":{"df609040-461d-4900-a4d7-431bfa8429b6":["condition"]}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Auto Classify School IT Tickets&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Auto Classify School IT Tickets"&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:35&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=6fc893322fa7c710601bb98a6fa4e384^sys_idNOT IN3fc893322fa7c710601bb98a6fa4e386"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/id&gt;&lt;name&gt;Auto Classify School IT Tickets&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:36&lt;/sys_created_on&gt;&lt;sys_id&gt;3fc893322fa7c710601bb98a6fa4e386&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:36&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3fc893322fa7c710601bb98a6fa4e386"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=6fc893322fa7c710601bb98a6fa4e384^sys_idNOT IN18d893322fa7c710601bb98a6fa4e3e3,bbc893322fa7c710601bb98a6fa4e388"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Auto Classify School IT Tickets"&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/model&gt;&lt;model_id&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6fc893322fa7c710601bb98a6fa4e384&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;18d893322fa7c710601bb98a6fa4e3e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:38&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18d893322fa7c710601bb98a6fa4e3e3"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Auto Classify School IT Tickets"&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/model&gt;&lt;model_id&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_6fc893322fa7c710601bb98a6fa4e384&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:36&lt;/sys_created_on&gt;&lt;sys_id&gt;bbc893322fa7c710601bb98a6fa4e388&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:36&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bbc893322fa7c710601bb98a6fa4e388"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6fc893322fa7c710601bb98a6fa4e384^sys_idNOT IN16d8d3322fa7c710601bb98a6fa4e338"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Classify School IT Tickets"&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:46&lt;/sys_created_on&gt;&lt;sys_id&gt;16d8d3322fa7c710601bb98a6fa4e338&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:46&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLetk0UNZJPC9nZRBIFASaRNLE26EqWsu8i/d6iLLeviSyynzlMgkpk5MzxzZuinnzpDLmb6jT5FLsN6R6dc4oAjNl0tMSxLtexwtFB7C8R9JEWw0m9kEOGOTgKxmOLFkiEJhwliISyKwMeBfmN29BixCE9W4cgHS/D/iZnMpp5tw3fkUO5RH3PpvIjgO2HixTFh36chWF79lR0bZYe0b9khOOLNKfMDzPWbp+eOvkQBeJDK+8/SloRwnK1YtYc0KKrAecRDAwsbnm3almUY1nXXdK9s17R8G2HDgHPlRJWCkTX52mQC/5CY+9hfJ6mSygAj/5Gz1frEHG4iTdsC/Qjpv2D92lDnCIaoPJzurT+dLFvpsjcX1MOPS0kFT1dSnOmmYNGCP6T4VZ4xQRGTeZ5hJQrBHl4qyApEhohM5uJlnDv8THkSXbbJhIfY+gtJGVA3kjhUV0Eog0tx0tyEIgoS9OO74eP41vn2aTr8427sjO8m0/FoOL271V+TuJx/ImUxRZhhcdJwXtfk+Ewx8xMO8WjhAp6OHnoBXcpPnqRxTsrXzoboQ8F9muSlQnYv3wq3yZ7Hv4vthtHId6/gccN5D6zMwPxocvflz+nfVb6/md7DYhgJva+uEPIxaqC3Swr0LqanBr+syVQxBbuInq0cwvSuYfxPXM+E7a1Uf0Fcho4UDvJ9p5AlUAYwrEIUPma3G3+wTmczqA7Kl5EM93I/ja1aAPuJH0QcTDjrG6rSP0nkOqP3NAR8T1C+ebayEMh9ZnEccU1wzYuCQOky3LSWW9cSnIodZLRAsyzXZIIZ9mSBHuRrWPz6QsOQ8lkB/dp5slL1zlZFCLkan+L0uc3aryY9LsXTWtXnt5dUvGkS4mJiGX1V76Zhu8Q0+kYPEd82DM8qVHwVYiN2WSLKWSr/uLoPE4qyAzhRTnwG3ijWyEGMjrfLIU+CIk4mL8N2oJktQbMUtJJM2kfp5Jqs6fLtNmd3hdbyKIH8GMF/+HmMh4wKB+hiMnPSupFgnyYSEeBZICLul7VJ2dQo/N060ZIausj7vtvt5oT2S3Ztv16aMm7SnhMX8dXZNNEmpjvAXWyAFNqggm5vMHA9ZBHSv+pjyyxp4gZcLeIPoYV7yBDXsalJF2v5HNeVwRGKeALAijoeDfB0XczoWquK6d7H0L+XOeYOQA0cphSuIoMzBk/vfK9dDai4jjdV35YO3GdBKe/keuD1zH7f68M7CFSAdLGLzK7VQ4P+lX3dK6lABd4u6LImW+/yOgpXYQKkQSG+pluX9avAOakcYilV4zq+nyfnUeqg0FnVlWiJyIhAU+nURpuD2gRDn0zex631dyHnlc4Orn+H9S3Xag58EPy3Gjhtvr44PAQOSU0DlEsbPEokibezfqYnGe5e9wbErhceMqgTng3EZvAXP4gcSJC4kWp1E8mhBRnX1nXjCPGGEiuRpzhb7Bh+2kqK2XpSrPMlxT554MortPEd+hawH6ixJdPG27ub4NgRpFa9KdGynyKxr7krTc4xJJPBTA2uNOW3zX6SDseV9gbLWjbHtNe5VJrLYd8KDTa04F0CP0/7KlHhPV7Q2O+jXs9umJ0H5Rd0Hcw9UVx8MzuaOHEdD3d2tOPslm3W9rRCXW3z5MBu1WrU9S3rtKhrm9a+qE9vR7ve/zUoLrTRPP8HV0GzvQggAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=6fc893322fa7c710601bb98a6fa4e384^sys_idNOT IN19d8d3322fa7c710601bb98a6fa4e335"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Classify School IT Tickets"&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:42&lt;/sys_created_on&gt;&lt;sys_id&gt;19d8d3322fa7c710601bb98a6fa4e335&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:42&lt;/sys_updated_on&gt;&lt;ui_id&gt;13545fe4-c24e-47c4-b515-d76f161eee40&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1TXU/bMBT9K5WfsyppSgV9m1pVQmIgAeoeGIsc+6ZYc5zMHy1d1f++m8RJS2GoTDwMaXm7nz7n5J67DRGcjMkQeBidRSMWR3E8CMPB6TBKR3EaDXhMASISEEVzwE4NrNAc4yWVrkpsNhMN1AJPoj5zWoOy2y3WuTClpOu5b8MMexCSY52M7+4DUlKNGy1oMt4clI6FJGkKEluvW0yHGO26rGJeMJcjrkS0yQs/OfWV3vkUKzhUwYnCgMCjBcUBgWRUGghIThWnttBrMrbaYQJJ8ysl113Hg1C2IZrTRyN+4cvDsOrLAJkxL0IXJl6gJp1NqaU3uJlZpzu9CsHANJpwyKiTdrKfaxquSisK1YxYmsp2upAuV5eNIqRbsPc/nEEQUFY8K+QNrezmoVhdtyBnQtWSeIqyYFR2EbVWi9TZCs6GgIRa45yWpVCLpNTFUtTDCCXvLyQG/UwWK3zTiIXqU1bh7qOqtD/D/LROz6kWFYkvuAaHtwExazOR1JgdFdQw+ekqJA0xTyGpVaglSOpLqIaZFqX9jE8twQPfBv7ow8GrFwa7g6pv3ewdvUsYnvwCz+GbC8OYK7CrQv/47hLj0qellfiUied++IsNb/PPEexa/8wESG5eoOv9YyFH6BaShv5TC936Ym/ui52L3s1G0Sisv/9m+nfNlJ68dm7sbHddezv3DSUUE/XDlQ1qatFz15z7pt5X3/RmWxyBs7XFbf3/X8bdOuMwd7E/27tsCt4RJ+9miNOPZAVP48N74U8OuP8NlyceZ0UJAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=19d8d3322fa7c710601bb98a6fa4e335"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6fc893322fa7c710601bb98a6fa4e384^sys_idNOT IN51d8d3322fa7c710601bb98a6fa4e333"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;5ec113f22f67c710601bb98a6fa4e38f&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Classify School IT Tickets"&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:42&lt;/sys_created_on&gt;&lt;sys_id&gt;51d8d3322fa7c710601bb98a6fa4e333&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:42&lt;/sys_updated_on&gt;&lt;ui_id&gt;df609040-461d-4900-a4d7-431bfa8429b6&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1VXW/TMBT9K5GfQ5S0a8X6NrVMmhidoNN4QCO6cZzWwrGDP9qFqv+d63y0FS2CCsQTb/Hx/Tjn5N5kS5SzlbPmUd0Yw5eSTD49h4RLj+HzlkgoGZkQqmTOLVeShGQNwnlsu51qBpblaRJRpzWTNnKpWSltc2ao5pVP2O3u796+2fBXBf88f39JzpzZjdJfsGPOTSWgfvrnjemKixxjW1sq0OiGZZpMtj9c8Rx5XcOoGCXxiA4H4+Egjgevr5JsPMySQT4EdjXGggIyJjB0euTnGYttXXnIWM3lsjvfd6mLHlQ691QGcUjYi2UyZ0iiAGFYSEqQOVilazKx2iGA4vMHKep9xIpLi9WIj30x/BvzleLYRxYMdVHW3u6PafcWWriYgQWk4qh1ugulK8UpM60jOSvACTs9xtqAh8bqNsVCJvpsJVwp560ZZF+gf+mIOIMkWOWVeu6dkGKxUpsPPctbLhtXukuhKIj9CSx6lznr+WwJE6zEQmkJVYWOppVWa94kI5cyWgo8RIVQG2zqdyMC6olHaCxEt4jPGvgJNPcq3mEZTMZZMGk7UJ22pjnZhcTUZirAmINGNDf96jzDVnGnLW3t8SlNoRtsvGadjF14upVpAxxWM1jMAm6Cj7zggdJBN9DB6Sr9PPCy0S9iKJJrmpwffRieG/2gnejTBejVXLIFyS+2oEN+aw1Go/9b8Mdb4GlmYDhNm78JlvMfor+4Bs9+3Nume7MpN8jt0WN3/T/MX9Q4UZweQ37MvaoDtvsO5osxKQ0HAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6fc893322fa7c710601bb98a6fa4e384&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:40&lt;/sys_created_on&gt;&lt;sys_id&gt;b0d893322fa7c710601bb98a6fa4e3ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:40&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_6fc893322fa7c710601bb98a6fa4e384&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:37&lt;/sys_created_on&gt;&lt;sys_id&gt;d8d893322fa7c710601bb98a6fa4e3ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:37&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6fc893322fa7c710601bb98a6fa4e384"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/sys_id&gt;&lt;latest_snapshot&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff7bc3362f27c710601bb98a6fa4e365^sys_idNOT IN60e817322fa7c710601bb98a6fa4e342"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan/&gt;&lt;plan_id&gt;ff7bc3362f27c710601bb98a6fa4e365&lt;/plan_id&gt;&lt;snapshot&gt;6fc893322fa7c710601bb98a6fa4e384&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-29 17:42:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;60e817322fa7c710601bb98a6fa4e342&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-29 17:42:56&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;24e817322fa7c710601bb98a6fa4e33f&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=ff7bc3362f27c710601bb98a6fa4e365"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-984722945</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>999bdb762fa7c710601bb98a6fa4e354</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ee4356590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table/>
+<target_name>Auto Classify School IT Tickets</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>f2e897325aa7c7102960d4431ed3f255</update_guid>
+<update_guid_history>f2e897325aa7c7102960d4431ed3f255:-984722945,9ec893328ba7c710e46ac5d837fb7f01:1396718040,86b6173e1a67c710e7eb5bc15ecef01d:1812935102,db4697fa2467c710791aa1ed3301a6bd:1871798760,ae05df3af667c7101ae945931aeef443:1301435346,19d193f28c67c71049eb8ba7a7ea1445:1758638207,cfb1dfb29167c7105c0cb5bd4586e342:2043978129,bef01b72da67c710fb15f691d0aeb5e5:1944325001,e5a0df321567c7100e35ead1e2f5b40d:449088695,1a505732cf67c710f352cf8e8532bf6f:-1938894683,b2ae437e6c27c7101f6d09cbade53ce8:1798190193,0a8b83f6f327c71083c6693a37e6c09f:-2060157191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_cc107eb22f63c710601bb98a6fa4e3f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_incident_workflow_1</description><local_or_existing>Existing</local_or_existing><name>u_incident_workflow_1</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:34</sys_created_on><sys_id>cc107eb22f63c710601bb98a6fa4e3f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_cc107eb22f63c710601bb98a6fa4e3f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-978114725</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>9d9bdb762fa7c710601bb98a6fa4e355</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9fe82f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8810beb2c063c710555d8f71a52fb154</update_guid>
+<update_guid_history>8810beb2c063c710555d8f71a52fb154:-978114725</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6810beb22f63c710601bb98a6fa4e36e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:36</sys_created_on><sys_id>6810beb22f63c710601bb98a6fa4e36e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1.u_incident_workflow_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_incident_workflow_1">9810beb22f63c710601bb98a6fa4e35c</sys_security_acl><sys_update_name>sys_security_acl_role_6810beb22f63c710601bb98a6fa4e36e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:36</sys_updated_on><sys_user_role display_value="u_incident_workflow_user" name="u_incident_workflow_user">ca23556e2f2b0710601bb98a6fa4e385</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-224056675</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:44</sys_created_on>
+<sys_id>a19bdb762fa7c710601bb98a6fa4e357</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9ff3c00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:44</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1.u_incident_workflow_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b810beb20a63c710199881c37a8e1d72</update_guid>
+<update_guid_history>b810beb20a63c710199881c37a8e1d72:-224056675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_incident_workflow_1_u_subcategory</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_subcategory" table="u_incident_workflow_1" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_subcategory</element><name>u_incident_workflow_1</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:28</sys_created_on><sys_id>93a6bafe2f63c710601bb98a6fa4e367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_subcategory</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_incident_workflow_1_u_subcategory</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:28</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value>performance</dependent_value><element>u_subcategory</element><hint/><inactive>false</inactive><label>Wi-Fi</label><language>en</language><name>u_incident_workflow_1</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9ba6bafe2f63c710601bb98a6fa4e366</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:35:47</sys_updated_on><value>wi-fi</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value>network</dependent_value><element>u_subcategory</element><hint/><inactive>false</inactive><label>Projector</label><language>en</language><name>u_incident_workflow_1</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>97a6bafe2f63c710601bb98a6fa4e368</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:35:40</sys_updated_on><value>projector</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value>access</dependent_value><element>u_subcategory</element><hint/><inactive>false</inactive><label>Forgot Password</label><language>en</language><name>u_incident_workflow_1</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2fa6bafe2f63c710601bb98a6fa4e369</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:35:28</sys_updated_on><value>forgot password</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value>hardware</dependent_value><element>u_subcategory</element><hint/><inactive>false</inactive><label>Slow Computer</label><language>en</language><name>u_incident_workflow_1</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3a6bafe2f63c710601bb98a6fa4e36b</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:35:58</sys_updated_on><value>slow computer</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-1957372779</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:41</sys_created_on>
+<sys_id>b09b93362fa7c710601bb98a6fa4e3ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edcef8fc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:41</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Subcategory</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>41dbb6f6eaa3c7105954a5fcccf0ea31</update_guid>
+<update_guid_history>41dbb6f6eaa3c7105954a5fcccf0ea31:-1957372779,e6cb367a85a3c710f5ff9179a02e110a:-1241584730,60cb367a2da3c7108fa53b011f0a3304:-1701113533,3dbbb6f6d1a3c710cd50046f82894d61:-1090757116,aba6bafeb263c71087c1f9e9fd6b0c9f:-1759543965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_subcategory</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_subcategory" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Subcategory</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent>u_category</dependent><dependent_on_field>u_category</dependent_on_field><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_subcategory</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:08</sys_created_on><sys_id>e296f6fe2f63c710601bb98a6fa4e3d3</sys_id><sys_name>Subcategory</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_subcategory</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:20:05</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-2002757337</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>c19bdb762fa7c710601bb98a6fa4e351</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edc070160000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Subcategory</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>24387ab28aa3c7107e28d6bec333b13c</update_guid>
+<update_guid_history>24387ab28aa3c7107e28d6bec333b13c:-2002757337,20a63afe7f63c710bca3a5769b944dc6:-995339603</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_assignedgroup</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_assignedgroup" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Assigned group</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_assignedgroup</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user_group">sys_user_group</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:09</sys_created_on><sys_id>2296f6fe2f63c710601bb98a6fa4e3d9</sys_id><sys_name>Assigned group</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_assignedgroup</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:09</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-231558419</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>c99bdb762fa7c710601bb98a6fa4e34e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba3a640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Assigned group</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>85a67afe4563c710f51f661c8e8d452a</update_guid>
+<update_guid_history>85a67afe4563c710f51f661c8e8d452a:-231558419</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_incident_workflow_1_u_description</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_description" table="u_incident_workflow_1"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_description</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_incident_workflow_1</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:07</sys_created_on><sys_id>8e96f6fe2f63c710601bb98a6fa4e3a8</sys_id><sys_name>Description</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_incident_workflow_1_u_description</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1543573272</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>cd9bdb762fa7c710601bb98a6fa4e34f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba34cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Description</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>38a63afe3863c7100bc4d714ccd9f6cc</update_guid>
+<update_guid_history>38a63afe3863c7100bc4d714ccd9f6cc:-1543573272</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f810beb22f63c710601bb98a6fa4e374</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_incident_workflow_1</description><local_or_existing>Existing</local_or_existing><name>u_incident_workflow_1</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:38</sys_created_on><sys_id>f810beb22f63c710601bb98a6fa4e374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_f810beb22f63c710601bb98a6fa4e374</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:38</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-554691343</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>d19bdb762fa7c710601bb98a6fa4e356</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9ff6410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7c10beb29163c710ac9d87c0e0135cdb</update_guid>
+<update_guid_history>7c10beb29163c710ac9d87c0e0135cdb:-554691343</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_category_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_category" label="Category" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_category</element><help/><hint/><label>Category</label><language>en</language><name>u_incident_workflow_1</name><plural>Categories</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:05</sys_created_on><sys_id>6596f6fe2f63c710601bb98a6fa4e31e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_category_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-264319592</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:42</sys_created_on>
+<sys_id>d59bdb762fa7c710601bb98a6fa4e352</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba42950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:42</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.Category</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>bda67afec363c710559275d6ff281b33</update_guid>
+<update_guid_history>bda67afec363c710559275d6ff281b33:-264319592</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_incident_workflow_1_u_state_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_state" label="State" language="en" table="u_incident_workflow_1"><sys_documentation action="INSERT_OR_UPDATE"><element>u_state</element><help/><hint/><label>State</label><language>en</language><name>u_incident_workflow_1</name><plural>States</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 15:13:07</sys_created_on><sys_id>0296f6fe2f63c710601bb98a6fa4e381</sys_id><sys_mod_count>0</sys_mod_count><sys_name>State</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_incident_workflow_1_u_state_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 15:13:07</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2072930333</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>d99bdb762fa7c710601bb98a6fa4e353</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0edba4bca0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>Incident Workflow.State</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>52a67afe7963c71052196cf2cc9be0e1</update_guid>
+<update_guid_history>52a67afe7963c71052196cf2cc9be0e1:2072930333</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_4991b6be2f23c710601bb98a6fa4e3fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_incident_workflow_1">u_incident_workflow_1</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>INC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:51:12</sys_created_on><sys_id>4991b6be2f23c710601bb98a6fa4e3fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>INC</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_4991b6be2f23c710601bb98a6fa4e3fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:51:12</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>904295192</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:43</sys_created_on>
+<sys_id>dd9bdb762fa7c710601bb98a6fa4e354</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0eda605680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:43</sys_updated_on>
+<table/>
+<target_name>INC</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>bd917e764d63c71071c0a81cfc424c21</update_guid>
+<update_guid_history>bd917e764d63c71071c0a81cfc424c21:904295192</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_c910beb22f63c710601bb98a6fa4e3dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 14:44:38</sys_created_on><sys_id>c910beb22f63c710601bb98a6fa4e3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_incident_workflow_1.u_incident_workflow_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_incident_workflow_1">f810beb22f63c710601bb98a6fa4e374</sys_security_acl><sys_update_name>sys_security_acl_role_c910beb22f63c710601bb98a6fa4e3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 14:44:38</sys_updated_on><sys_user_role display_value="u_incident_workflow_user" name="u_incident_workflow_user">ca23556e2f2b0710601bb98a6fa4e385</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1402150629</payload_hash>
+<remote_update_set display_value="Project update Set ">b49b93362fa7c710601bb98a6fa4e3e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 17:54:44</sys_created_on>
+<sys_id>e59bdb762fa7c710601bb98a6fa4e357</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0ed9ff9430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 17:54:44</sys_updated_on>
+<table>u_incident_workflow_1</table>
+<target_name>u_incident_workflow_1.u_incident_workflow_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>0d10beb23e63c7105979ecde4d5392e1</update_guid>
+<update_guid_history>0d10beb23e63c7105979ecde4d5392e1:-1402150629</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
